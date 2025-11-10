@@ -1,0 +1,54 @@
+---
+title: "Análise Estatística Descritiva e Regressão Linear Simples"
+author: 
+  - "Ana Karolina da Silva Reges"
+  - "Lucas Ramos dos Reis"
+  - "Matheus Vaz Teixeira"
+  - " Michael Henrique da Silva Fontes"
+  - "Thalma Gabriel Marques Coimbra"
+date: "`r format(Sys.Date(), '%d/%m/%Y')`"
+output:
+  pdf_document:
+    toc: true          # adiciona sumário automático
+    toc_depth: 2
+    number_sections: true
+---
+1. Introdução
+O presente trabalho tem como objetivo aplicar técnicas de Estatística Descritiva e Regressão Linear Simples a um conjunto de dados reais contendo mais de 5.000 observações e 10 variáveis de diferentes tipos.
+O estudo visa compreender o comportamento das variáveis e investigar relações entre elas, conforme solicitado no roteiro do trabalho de Engenharia de Software 2025/2.
+
+2. Base de Dados
+
+A base utilizada foi obtida de [(nome da fonte)].
+Contém aproximadamente XX.XXX registros e X variáveis, sendo quantitativas e qualitativas.
+Abaixo está um resumo inicial das variáveis:
+
+Variável	Tipo	Descrição
+
+# Pacotes utilizados
+
+library(tidyverse)
+library(skimr)
+library(janitor)
+library(ggplot2)
+library(broom)
+knitr::opts_chunk$set(echo = TRUE)
+
+3. Leitura e Preparação dos Dados
+# Carregar base de dados (exemplo genérico)
+
+dados <- read_csv("dados.csv") %>%
+clean_names()
+
+glimpse(dados)
+
+
+4. Estatística Descritiva
+
+
+
+5. Conclusão
+
+
+6. Referências
+
