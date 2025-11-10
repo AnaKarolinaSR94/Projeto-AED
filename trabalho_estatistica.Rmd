@@ -36,10 +36,8 @@ knitr::opts_chunk$set(echo = TRUE)
 
 3. Leitura e Preparação dos Dados
 # Carregar base de dados (exemplo genérico)
-
 dados <- read_csv("dados.csv") %>%
 clean_names()
-
 glimpse(dados)
 
 
